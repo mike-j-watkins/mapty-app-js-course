@@ -286,7 +286,6 @@ class App {
     this.#workouts = data;
     this.#workouts.forEach(workout => {
       this._renderWorkout(workout);
-      this._;
     });
   }
 
